@@ -10,8 +10,8 @@ RUN apt update && \
 	./configure --prefix=/usr && \
 	make && \
 	make install && \
-	apt remove -y bison flex autotools-dev automake make && \
-	apt autoremove -y && \
+	apt -y remove bison flex autotools-dev automake make && \
+	apt-get autoremove -y && \
 	rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /entrypoint.sh

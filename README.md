@@ -23,7 +23,7 @@ param_spidev_max_freq=1000000
 OrangePiPC+  	   | Arduino Atmega328 Pro
 ---------------------------------------
 MOSI SPI (pin19)   | MOSI (pin11)
-MISO SPI (pin21)   | MISO (pin16)
+MISO SPI (pin21)   | MISO (pin12)
 SCLK SPI (pin23)   | SCK (pin13 with LED)
 Reset (configured) | RST (Reset)
 ```
